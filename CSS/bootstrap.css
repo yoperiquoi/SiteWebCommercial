@@ -1,0 +1,57 @@
+/*Mise place du responsive*/
+@media screen and (max-width: 800px){
+ 
+p {
+ 	font-size: 12px!important;
+ }
+ 
+a,label,button {
+ 	font-size: 13px!important;
+ }
+
+h3 {
+ 	font-size: 10px!important;
+ }
+
+h1 {
+ 	font-size: 16px!important;
+ }
+
+}
+
+/*Augmentation des margin et padding*/
+.mb-5 {
+	margin-bottom:5%!important; 
+}
+
+.pb-10 {
+	padding-bottom:6%!important; 
+}
+.mt-10 {
+	margin-top:10%!important; 
+}
+
+.mt-5 {
+	margin-top:6%!important;
+}
+
+.pt-5 {
+	padding-top: 5%!important;
+}
+
+/*Scrollspy et design navbar*/
+.nav-item .active{
+	border-bottom: 3px solid red!important;
+}
+
+a {
+	color: white!important;
+}
+nav {
+	border-bottom: solid grey 1px!important;
+}
+/*Image du jumbotron*/
+.jumbotron1{
+	background-image: url(../Images/image2.png);
+	background-repeat: no-repeat;
+}
